@@ -19,7 +19,7 @@ app.listen(PORT, () => {
 });
 
 app.get("/",(req,res)=>{
-  res,json({
+  res.json({
     success:true,
     message:"Server Connected Successfully"
   })
